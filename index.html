@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puro Tempero - Sabor que Acende</title>
+    <link rel="icon" href="img/puroTempero_logo.png" type="image/jpeg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <a href="#hero" class="nav-logo">
+                <img src="img/puroTempero_logo.png" alt="Logo Puro Tempero">
+            </a>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#products" class="nav-link">Produtos</a></li>
+                    <li><a href="#about" class="nav-link">Sobre Nós</a></li>
+                    <li><a href="#contact" class="nav-link cta-button">Contato</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <img src="img/puroTempero_logo.png" alt="Puro Tempero" class="hero-logo animate-on-scroll">
+            <h1 class="animate-on-scroll">SABOR QUE ACENDE</h1>
+            <p class="animate-on-scroll">Molhos e temperos artesanais feitos com ingredientes de verdade.</p>
+            <a href="#products" class="cta-button large-button animate-on-scroll">Conheça nossa linha</a>
+        </div>
+    </section>
+
+    <section id="products" class="products-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Nossos Sabores</h2>
+            <div class="product-grid">
+                
+                <div class="product-card animate-on-scroll">
+                    <div class="product-image">
+                        <img src="https://thumbs.dreamstime.com/b/molho-picante-vermelho-mexicano-tradicional-com-ingredientes-126685180.jpg" alt="Molho Picante">
+                    </div>
+                    <h3>Molho Vulcão</h3>
+                    <p>Uma explosão de sabor com pimentas vermelhas selecionadas. Perfeita para quem não tem medo de calor.</p>
+                    <span class="price">R$ 22,90</span>
+                </div>
+
+                <div class="product-card animate-on-scroll">
+                    <div class="product-image">
+                        <img src="https://tse3.mm.bing.net/th/id/OIP.F0DRrQGGOduCimwcRP7BuAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Tempero Verde">
+                    </div>
+                    <h3>Tempero Cheiro Verde</h3>
+                    <p>O clássico tempero de alho, cebola e ervas frescas, pronto para usar em qualquer prato. Sabor de casa.</p>
+                    <span class="price">R$ 18,90</span>
+                </div>
+
+                <div class="product-card animate-on-scroll">
+                    <div class="product-image">
+                        <img src="https://i.pinimg.com/originals/ce/0d/42/ce0d424159ad6b8785be07f4d96cf0ca.jpg" alt="Molho de Pimenta Amarela">
+                    </div>
+                    <h3>Molho Sol Amarelo</h3>
+                    <p>Levemente adocicado e com uma picância frutada, nosso molho de pimenta amarela vai te surpreender.</p>
+                    <span class="price">R$ 24,90</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text animate-on-scroll">
+                    <h2 class="section-title">Da nossa cozinha para a sua</h2>
+                    <p>O <strong>Puro Tempero</strong> nasceu de uma receita de família. Cansados de molhos industrializados sem graça, decidimos criar o nosso.</p>
+                    <p>Usamos apenas ingredientes frescos, sem conservantes e com muito afeto. Acreditamos que uma boa pimenta não deve só arder, mas também adicionar camadas de sabor ao prato. Experimente e sinta a diferença!</p>
+                </div>
+                <div class="about-image animate-on-scroll">
+                    <img src="https://capitalist.com.br/wp-content/uploads/2023/12/shutterstock-2240913009-2-1.jpg.webp" alt="Homem segurando pimentas frescas">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Fale Conosco</h2>
+            <p class="animate-on-scroll">Quer revender nossos produtos ou apenas mandar um alô? Preencha o formulário!</p>
+            <form id="contact-form" class="animate-on-scroll">
+                <input type="text" name="name" placeholder="Seu nome" required>
+                <input type="email" name="email" placeholder="Seu e-mail" required>
+                <textarea name="message" rows="5" placeholder="Sua mensagem" required></textarea>
+                <button type="submit" class="cta-button">Enviar</button>
+            </form>
+            <div id="form-status"></div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="social-media">
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Whatsapp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <p>&copy; 2025 Puro Tempero. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
